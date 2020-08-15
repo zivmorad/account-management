@@ -1,0 +1,52 @@
+.current-status{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.current-balance-h3,.history-operation-h3{
+    margin:25px;
+}
+.current-status-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.current-status-item{
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    opacity: 0.9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 2px rgb(61, 121, 61);
+    margin: 20px;
+}
+
+.current-info-nis{
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+#current-nis-icon{
+    color: rgb(60, 210, 236);
+}
+#take-nis-icon{
+color: rgb(0, 255, 13);
+}
+#give-nis-icon{
+color: rgb(255, 17, 0);
+}
+#stop-nis-icon{
+color: rgb(251, 255, 0);
+}

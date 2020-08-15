@@ -1,0 +1,15 @@
+.alerts-container{
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.alert-error{
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(250, 52, 52);
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 8px;
+}

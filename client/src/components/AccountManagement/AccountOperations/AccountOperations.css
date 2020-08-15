@@ -1,0 +1,65 @@
+.operation-container{
+    background: url('../../../img/mainBg.jpg');
+    width: 100%;
+}
+.operation-box{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    box-shadow: 0 0 4px 2px rgb(61, 121, 61);
+    opacity: 0.9;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 35px;
+    color: white;
+}
+.operation-alert{
+    width: 100%;
+    margin: auto;
+}
+.operation-form input{
+    margin: 15px 30px;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    padding: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.table-container{
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  
+}
+
+.table-container th,.table-container td{
+    padding: 12px 15px;
+}
+.table-container tbody tr {
+    border-bottom: 1px solid white;
+}
+.table-container tbody tr td:last-child{
+    cursor: pointer;
+    padding: 0;
+}
+.table-container tbody tr:last-child{
+    border-bottom: none;
+}
+
+@media(max-width:550px ){
+    .table-container th,.table-container td{
+        padding: 10px 2px;
+    }
+    .sub-menu-user-circle ul li {
+        padding: 3px 10px;
+    }
+}

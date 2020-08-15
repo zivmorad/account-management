@@ -1,0 +1,10 @@
+.account-management-container{
+    background: url('../../img/mainBg.jpg');
+    width: 100%;
+    height: 100vh;
+}
+@media(max-width:700px){
+    .account-management-container{
+        height: 160vh;
+    }
+}
