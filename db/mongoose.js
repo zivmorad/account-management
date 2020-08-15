@@ -1,9 +1,21 @@
 const mongoose=require('mongoose')
-
+const config=require('config')
+const db=config.get('mongoURL')
 
 //set up connection from mongoose to the mongoDB
+const connectDB=async()=>{
+    try {
+        await mongoose.connect(db,{
+            useNewUrlParser:true,
+            useCreateIndex:true,
+            useUnifiedTopology:true,
+        })
+        console.log('MongoDB Connected...')
+    } catch (err) {
+        console.error(err.message)
+        //exit process with failure
+        process.exit(1)
+    }
+}
 
-mongoose.connect('mongodb://127.0.0.1:27017/easy-bank-api',{
-    useNewUrlParser:true,
-    useCreateIndex:true
-})
+module.exports=connectDB

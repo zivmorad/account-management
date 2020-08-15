@@ -1,7 +1,6 @@
 const config = require('../config/default.json');
 const jwt = require('jsonwebtoken');
 
-
 const auth= async(req,res,next)=>{
     //get the token from req
     const token=req.header('x-auth-token')
