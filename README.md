@@ -20,7 +20,7 @@ There are 3 main systems in the project:
 3. Create / View operations - In this process, the user will be able to add, delete, view, and manage his bank operations, status of his total money, total expenses , total income.
 
 ## Pictures
-![Login_Img](./img/1.png)
-![Register_Img](./img/2.png)
-![AccountManagement_Img](./img/3.png)
-![UpdateProfile_Img](./img/4.png)
+![Login_Img](./reameImg/1.png)
+![Register_Img](./reameImg/2.png)
+![AccountManagement_Img](./reameImg/3.png)
+![UpdateProfile_Img](./reameImg/4.png)
