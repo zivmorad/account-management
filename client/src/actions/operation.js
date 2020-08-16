@@ -54,9 +54,9 @@ export const getOperations=()=>async dispatch=>{
     let inc=0
     let dec=0
     operations.data.forEach(operation =>{
-        if(operation.typeOfOperation==='inc'){
+        if(operation.typeOfOperation==='Increase'){
             inc+=parseInt(operation.amount)
-        } else if (operation.typeOfOperation==='dec'){
+        } else if (operation.typeOfOperation==='Decrease'){
             dec+=parseInt(operation.amount)
         }
     });
